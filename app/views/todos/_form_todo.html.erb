@@ -1,0 +1,7 @@
+<%= form_for @todo do |f| %>
+  <%= f.label :todo %>
+  <%= f.text_field :title %>
+  <%= f.submit 'Submit'%>
+<% end %>
+
+<p><%= link_to "Index", todos_path %><p>

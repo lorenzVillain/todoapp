@@ -1,4 +1,17 @@
 Rails.application.routes.draw do
+  resources :todos
+  # root "todos#index" # => root_path
+
+  # get 'todos/index'  # => todos_path
+
+  # get 'todos/new'    # => new_todo_path
+
+  # get 'todos/show'   # => todos_show_path
+
+  # get 'todos/edit'   # => todos_edit_path
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
